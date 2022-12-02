@@ -29,8 +29,8 @@ String isShowEMStyle = "";
 		<div <%=isShowEMStyle%>><%= errMessage%></div>
 		<div></div>
 		<form action="LoginServlet" method="post">
-			ユーザーID：<input type="text" name="id" value="<%=id%>"  required><br>
-			パスワード：<input type="password" name="pass" value="<%=pass%>" required><br>
+			UserID：<input type="text" name="id" value="<%=id%>"  required><br>
+			PW：<input type="password" name="pass" value="<%=pass%>" required><br>
 			<input type="submit" value="ログイン"><br>
 		</form>
 	</body>
